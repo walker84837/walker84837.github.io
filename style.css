@@ -1,10 +1,16 @@
+/*
+	Credits:
+	https://youtu.be/lAS2glU0xlc CSS 3 Popup
+	https://youtu.be/aywzn9cf-_U CSS 3 Parallax pixel background
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
 :root {
 	--bgColor: #223344;
 	--bgColor2: #090a0f;
 	--accentColor: #FFF;
-	--font: 'Karla', sans-serif;
+	--font: 'Karla', 'Arial', 'Helvetica', sans-serif;
 	--delay: .3s;
 }
 
@@ -92,7 +98,7 @@ body {
 	width: 100%;
 	text-align: center;
 
-	/*  animation   */
+	/* Animation */
 	overflow: hidden;
 	background: linear-gradient(90deg, var(--bgColor), var(--accentColor), var(--bgColor));
 	background-repeat: no-repeat;
@@ -104,7 +110,9 @@ body {
 }
 
 
-/*-------------------------animations-----------------------*/
+/*
+	Animations (from line 116 to 143)
+*/
 @keyframes transitionAnimation {
 	0% {
 		opacity: 0;
@@ -118,10 +126,10 @@ body {
 
 @keyframes animate {
 	0% {
-	  background-position: -500%;
+		background-position: -500%;
 	}
 	100% {
-	  background-position: 500%;
+		background-position: 500%;
 	}
 }
 
@@ -134,9 +142,9 @@ body {
 	}
 }
 
-
-/*-------------------------popup------------------------*/
-/* credits: https://www.youtube.com/watch?v=lAS2glU0xlc */
+/*
+	Profile picture popup (from line 146 to 244)
+*/
 .overlay {
 	display: flex;
 	align-items: center;
@@ -173,8 +181,8 @@ body {
 }
 
 .popup-quote {
-	font-family : Baskerville, Georgia, serif;
-	font-style : italic;
+	font-family: Baskerville, Georgia, serif;
+	font-style: italic;
 	position: flex;
 	color: var(--accentColor);
 	padding: 20px;
@@ -238,8 +246,10 @@ body {
 }
 
 
-/*-----------------------parallax-----------------------*/
-/* credits: https://www.youtube.com/watch?v=aywzn9cf-_U */
+/*
+	Parrallax background (from line 253 to 813)
+*/
+
 #stars1 {
 	width: 1px;
 	height: 1px;
