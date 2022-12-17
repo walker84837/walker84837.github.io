@@ -143,8 +143,9 @@ body {
 }
 
 /*
-	Profile picture popup (from line 146 to 244)
+	Profile picture popup (from line 149 to 247)
 */
+
 .overlay {
 	display: flex;
 	align-items: center;
@@ -247,7 +248,7 @@ body {
 
 
 /*
-	Parrallax background (from line 253 to 813)
+	Parrallax background (from line 254 to 814)
 */
 
 #stars1 {
