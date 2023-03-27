@@ -1,5 +1,5 @@
 # Walker #84837's Linktree
-Hello, this is the source code to my Linktree page!
+Hello, this is the source code to my generic Linktree page, as this type of page can be done by everyone, as I am bad at coding and I know this has really bad code.
 
 ## Changelog
 
