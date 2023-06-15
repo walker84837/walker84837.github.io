@@ -14,11 +14,14 @@
 	--delay: .3s;
 }
 
+* {
+	font-family: var(--font);
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	min-height: 100vh;
-	font-family: var(--font);
 	background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
 	opacity: 0;
 	animation: 1s ease-out var(--delay) 1 transitionAnimation;
@@ -26,6 +29,47 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+}
+
+footer {
+	position: relative;
+	text-align: center;
+	background-color: #090a0f7f;
+	mix-blend-mode: screen;
+	color: var(--accentColor);
+	padding: 20px;
+	font-size: 0.8rem;
+}
+
+h1 {
+	color: var(--accentColor);
+	font-weight: 700;
+	text-align: center;
+}
+
+.main-link {
+	font-size: 1.4em;
+}
+
+p {
+	color: var(--accentColor);
+	text-align: center;
+}
+
+footer a, a {
+	color: #ca5100;
+	text-decoration: underline;
+	transition: color 0.25s ease-in-out;
+}
+
+a:hover, footer a:hover {
+	color: #008aca;
+	text-decoration: underline;
+}
+
+.pages {
+	width: min(120ch, 100% - 4rem);
+	margin-inline: auto;
 }
 
 #profilePicture, #profilePicture img {
@@ -44,7 +88,6 @@ body {
 	font-weight: bold;
 	line-height: 1.25;
 	display: block;
-	font-family: var(--font);
 	width: 100%;
 	text-align: center;
 	text-decoration: none;
@@ -93,7 +136,6 @@ body {
 	color: var(--accentColor);
 	font-size: 1rem;
 	display: block;
-	font-family: var(--font);
 	width: 100%;
 	text-align: center;
 
