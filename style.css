@@ -47,6 +47,12 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	color: var(--accentColor);
+	font-weight: 700;
+	text-align: center;
+}
+
 .main-link {
 	font-size: 1.4em;
 }
@@ -852,4 +858,24 @@ a:hover, footer a:hover {
 	16px 1650px #fff, 1021px 1075px #fff, 723px 424px #fff, 1175px 41px #fff,
 	494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
 	498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
+}
+
+.repo-card {
+    background-color: rgba(34, 34, 34, 0.75); /* Black-gray with 75% opacity */
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: var(--accentColor); /* Use existing accent color for text */
+}
+
+.repo-card h3 {
+    color: var(--accentColor); /* Ensure heading color matches */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.repo-card p {
+    color: var(--accentColor); /* Ensure paragraph color matches */
+    margin-bottom: 0;
+    text-align: left; /* Align text to the left within the card */
 }
