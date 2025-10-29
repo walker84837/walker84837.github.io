@@ -72,25 +72,54 @@
 		        <p>Rust library for using blockpalettes.com.</p>
 		    </div>
 		    <div class="repo-card">
-		        <h3>minechat protocol + client + server</h3>
+		        <h3>MineChat Protocol</h3>
 		        <p>
-		            <a href="https://github.com/MineChatPowered/protocol" target="_blank"><i class="fab fa-github"></i> Protocol <i class="fas fa-external-link-alt"></i></a><br>
-		            <a href="https://github.com/MineChatPowered/client" target="_blank"><i class="fab fa-github"></i> Client <i class="fas fa-external-link-alt"></i></a><br>
-		            <a href="https://github.com/MineChatPowered/server" target="_blank"><i class="fab fa-github"></i> Server <i class="fas fa-external-link-alt"></i></a><br>
-		            Flexible and independent "platform" for chatting on Minecraft servers from other platforms (even outside of Discord).
+							<ul>
+								<li>
+									<a href="https://github.com/MineChatPowered/protocol-rs" target="_blank"><i class="fab fa-github"></i> Protocol (Rust) <i class="fas fa-external-link-alt"></i></a>
+								</li>
+								<li>
+									<a href="https://github.com/MineChatPowered/client" target="_blank"><i class="fab fa-github"></i> Client <i class="fas fa-external-link-alt"></i></a>
+								</li>
+								<li>
+									<a href="https://github.com/MineChatPowered/server" target="_blank"><i class="fab fa-github"></i> Server <i class="fas fa-external-link-alt"></i></a>
+								</li>
+							</ul>
+							MineChat is a <i>flexible</i>, <i>independent</i>, and <i>protocol-driven</i> platform that enables real-time, cross-platform chat with Minecraft servers.<br>
+							It functions as a robust bridge, allowing users to engage with in-game conversations from external clients, even outside of traditional platforms like Discord.<br>
+							This system uses
+							<ul>
+								<li>an asynchronous communication protocol</li>
+								<li>a lightweight CLI client</li>
+								<li>a server-side Minecraft plugin</li>
+							</ul>
+							to provide a standardized and extensible framework for seamless server interaction and persistent account linking.
 		        </p>
 		    </div>
 		    <div class="repo-card">
 		        <a href="https://github.com/walker84837/kyori-componnet-json" target="_blank">
 		            <h3>kyori-component-json <i class="fab fa-github"></i> <i class="fas fa-external-link-alt"></i></h3>
 		        </a>
-		        <p>Minecraft implementation of 1.21.5+ text component (imitates Kyori Components and Parser APIs + optional built-in MiniMessage).</p>
+				<p>A <b>type-safe</b> Rust library for Minecraft's JSON text component format (1.21.5+), providing <i>comprehensive</i> serialization/deserialization with builder-style APIs. Supports JSON and MiniMessage (optionally) de/serialization natively.</p>
+					<p>It comes with the following features:</p>
+					<ul>
+						<li><i>Complete component system</i> - colors, formatting, hover events, click actions, translations, and scoreboards</li>
+						<li><i>Serde JSON integration</i> - seamless integration for commands like <code>/tellraw</code> and <code>/title</code></li>
+						<li><i><a href="https://docs.papermc.io/paper/dev/component-api/introduction/">Kyori</a>-inspired API</i> - familiar builder patterns for Java developers, while remaining idiomatic Rust</li>
+						<li><i>Zero-copy operations</i> - efficient plain-text extraction and style inheritance</li>
+					</ul>
+					<p>The library handles the complexity of Minecraft's text specification so you can focus on building related to text components easily, like rich chat messages, custom books or command generators.</p>
 		    </div>
 		    <div class="repo-card">
 		        <a href="https://github.com/walker84837/serverless-web" target="_blank">
 		            <h3>serverless-web <i class="fab fa-github"></i> <i class="fas fa-external-link-alt"></i></h3>
 		        </a>
-		        <p>A pre-alpha library designed to simplify serverless application development in Rust by unifying the APIs of various frameworks like Cloudflare Workers and Fermyon. By providing a set of traits that encapsulate common features, developers can easily switch between providers with minimal friction, only requiring adjustments to Cargo features rather than a complete learning curve for new APIs. This library aims to simplify the setup and improve interoperability within the Rust serverless ecosystem.</p>
+						<p>A <b>pre-alpha</b> library designed to simplify serverless application development in Rust by unifying the APIs of various frameworks like <a href="https://developers.cloudflare.com/workers/runtime-apis/webassembly/">Cloudflare Workers</a> and <a href="https://www.fermyon.com/wasm-functions">Fermyon</a>.</p>
+						<ul>
+						    <li>Provides a set of <i>traits</i> that encapsulate common features.</li>
+						    <li>Lets developers switch between providers with minimal friction, only changing <i>Cargo features</i>, without learning new APIs.</li>
+						    <li>Simplifies setup and improves interoperability within the Rust serverless ecosystem.</li>
+						</ul>
 		    </div>
 		</section>
 
