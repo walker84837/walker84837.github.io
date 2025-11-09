@@ -62,6 +62,15 @@ p {
 	text-align: center;
 }
 
+code {
+	/* TODO: Make font size match the rest of the code, like <p> */
+	font-size: .9em;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: .1em .15em;
+	border-radius: 4px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
 footer a, a {
 	color: #ca5100;
 	text-decoration: underline;
