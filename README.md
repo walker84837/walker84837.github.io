@@ -1,9 +1,3 @@
-# Walker \#84837's Linktree
+# Hello!
 
-This is the GitHub repo for my Linktree page, based on [John
-Emerson](https://github.com/johnggli)'s Linktree page[^1]. Aside from
-everything, there is nothing much to say about this repo.
-
-[^1]: I didn't know about licenses back when I personalized this website, and
-I forgot who originally made this. After that, I checked GitHub and saw it was
-an MIT License, so I just added credits and changed the license to MIT.
+This was the repo that hosted my old linktree page. The original page is at <https://links.winlogon.org>. But the main site is hosted at <https://winlogon.org>. If you're looking for the linktree, it's on [Codeberg](https://codeberg.org/winlogon/linkhub).
